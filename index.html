@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <div class="left-item">
+                <h1>Dashboard</h1>
+                <button class="add-btn">Добавить задачу</button>
+            </div>
+            <div class="right-item">
+                <button class="edit-btn">Поиск по задачам</button>
+            </div>
+        </header>
+        <div class="show-tasks">
+            <p class="show-text">Показать задачи как:</p>
+            <p class="tasks-text active table">Таблица</p>
+            <p class="tasks-text tile">Плитка</p>
+        </div>
+        <main>      
+            <div class="table-view show">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Заголовок задачи</th>
+                            <th>Описание задачи</th>
+                            <th>Дата</th>
+                            <th>Время</th>
+                            <th>Выполнено</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Переписать проект на Vue 3</td>
+                            <td>Quia et suscipit\nsuscipit recusandae consequuntur expedita et <br> cumnreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem <br> sunt rem eveniet architecto</td>
+                            <td>21.10.21</td>
+                            <td>14:31</td>
+                            <td class="status not-completed">Не выполнено</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Переписать проект на Vue 3</td>
+                            <td>Quia et suscipit\nsuscipit recusandae consequuntur expedita et <br> cumnreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem <br> sunt rem eveniet architecto</td>
+                            <td>21.10.21</td>
+                            <td>14:31</td>
+                            <td class="status completed">Готово</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Переписать проект на Vue 3</td>
+                            <td>Quia et suscipit\nsuscipit recusandae consequuntur expedita et <br> cumnreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem <br> sunt rem eveniet architecto</td>
+                            <td>21.10.21</td>
+                            <td>14:31</td>
+                            <td class="status completed">Готово</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Переписать проект на Vue 3</td>
+                            <td>Quia et suscipit\nsuscipit recusandae consequuntur expedita et <br> cumnreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem <br> sunt rem eveniet architecto</td>
+                            <td>21.10.21</td>
+                            <td>14:31</td>
+                            <td class="status in-progress">В прогрессе</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Переписать проект на Vue 3</td>
+                            <td>Quia et suscipit\nsuscipit recusandae consequuntur expedita et <br> cumnreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem <br> sunt rem eveniet architecto</td>
+                            <td>21.10.21</td>
+                            <td>14:31</td>
+                            <td class="status completed">Готово</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Переписать проект на Vue 3</td>
+                            <td>Quia et suscipit\nsuscipit recusandae consequuntur expedita et <br> cumnreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem <br> sunt rem eveniet architecto</td>
+                            <td>21.10.21</td>
+                            <td>14:31</td>
+                            <td class="status not-completed">Не выполнено</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Переписать проект на Vue 3</td>
+                            <td>Quia et suscipit\nsuscipit recusandae consequuntur expedita et <br> cumnreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem <br> sunt rem eveniet architecto</td>
+                            <td>21.10.21</td>
+                            <td>14:31</td>
+                            <td class="status in-progress">В прогрессе</td>
+                        </tr>
+                    </tbody>
+                    <tbody class="table-body">
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="grid-view">
+                <div class="card">
+                    <h3>Переписать проект на Vue 3</h3>
+                    <p class="desk">Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
+                    <div class="data">
+                        <p>21.10.21</p>
+                        <p>14:31</p>
+                    </div>
+                    <p class="status not-completed">Не выполнено</p>
+                </div>
+                <div class="card">
+                    <h3>Переписать проект на Vue 3</h3>
+                    <p class="desk">Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
+                    <div class="data">
+                        <p>21.10.21</p>
+                        <p>14:31</p>
+                    </div>
+                    <p class="status completed">Готово</p>
+                </div>
+                <div class="card">
+                    <h3>Переписать проект на Vue 3</h3>
+                    <p class="desk">Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
+                    <div class="data">
+                        <p>21.10.21</p>
+                        <p>14:31</p>
+                    </div>
+                    <p class="status completed">Готово</p>
+                </div>
+                <div class="card">
+                    <h3>Переписать проект на Vue 3</h3>
+                    <p class="desk">Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
+                    <div class="data">
+                        <p>21.10.21</p>
+                        <p>14:31</p>
+                    </div>
+                    <p class="status in-progress">В прогрессе</p>
+                </div>
+                <div class="card">
+                    <h3>Переписать проект на Vue 3</h3>
+                    <p class="desk">Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
+                    <div class="data">
+                        <p>21.10.21</p>
+                        <p>14:31</p>
+                    </div>
+                    <p class="status completed">Готово</p>
+                </div>
+                <div class="card">
+                    <h3>Переписать проект на Vue 3</h3>
+                    <p class="desk">Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
+                    <div class="data">
+                        <p>21.10.21</p>
+                        <p>14:31</p>
+                    </div>
+                    <p class="status not-completed">Не выполнено</p>
+                </div>
+                <div class="card">
+                    <h3>Переписать проект на Vue 3</h3>
+                    <p class="desk">Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
+                    <div class="data">
+                        <p>21.10.21</p>
+                        <p>14:31</p>
+                    </div>
+                    <p class="status in-progress">В прогрессе</p>
+                </div>
+            </div>
+        </main>
+
+        <div class="modal">
+            <div class="modal-content">
+                <h2>Добавить</h2>
+                <input type="text" class="task-title" placeholder="Заголовок">
+                <input type="text" class="task-desc" placeholder="Описание">
+                <input type="time" class="task-time" placeholder="Время (type=time)">
+                <input type="date" class="task-date" placeholder="Время (type=date)">
+                <input type="text" class="task-type" placeholder="Тип задачи (select - option - new/progress/done)">
+                <button class="close-modal">Добавить</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
